@@ -26,7 +26,9 @@ pip install scikit-learn</code></pre>
 
 # Steps for Facial Recognition
 
-Step 1 - Facial Detection 
+**Step 1 - Facial Detection**
+
+
 
 we will be using MTCNN for facial detetion 
 to install mtcnn use the command 
@@ -36,13 +38,16 @@ to install mtcnn use the command
 ( Make sure you have the compatible version of opencv and tensorflow installed before intalling mtcnn 
  (if not mtcn will install opencv itself))
 
-MTCNN - https://towardsdatascience.com/face-detection-using-mtcnn-a-guide-for-face-extraction-with-a-focus-on-speed-c6d59f82d49
+***MTCNN - https://towardsdatascience.com/face-detection-using-mtcnn-a-guide-for-face-extraction-with-a-focus-on-speed-c6d59f82d49***
 
-Step 2 - Facial Alignment 
+
+**Step 2 - Facial Alignment**
+
 
 MTCNN can perform facial alignment 
 
-Step 3 - facial recognition
+
+**Step 3 - facial recognition**
 
  # Training 
  The model is trained on the LFW dataset 
