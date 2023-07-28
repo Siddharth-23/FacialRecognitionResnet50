@@ -1,10 +1,31 @@
-# FacialRecognitionResnet50
+# Facial Recognition Using Resnet50
+Resnet50 -
+https://towardsdatascience.com/the-annotated-resnet-50-a6c536034758
+
+# Prerequisites
+It is advisable to create a separate python enviorment to install all packages
+to avoid conflict 
+
+<pre><code>pip install opencv-python
+pip install tensorflow
+pip install path
+pip install torch
+pip install scikit-learn</code></pre>
+
 
 # Steps for Facial Recognition
 
 Step 1 - Facial Detection 
 
 we will be using MTCNN for facial detetion 
+to install mtcnn use the command 
+
+<pre><code> pip install mtcnn </code></pre>
+ 
+( Make sure you have the compatible version of opencv and tensorflow installed before intalling mtcnn 
+ (if not mtcn will install opencv itself))
+
+MTCNN - https://towardsdatascience.com/face-detection-using-mtcnn-a-guide-for-face-extraction-with-a-focus-on-speed-c6d59f82d49
 
 Step 2 - Facial Alignment 
 
