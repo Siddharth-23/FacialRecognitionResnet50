@@ -1,6 +1,17 @@
 # Facial Recognition Using Resnet50
-Resnet50 -
-https://towardsdatascience.com/the-annotated-resnet-50-a6c536034758
+Facial recognition is dond by genrating facial embeddings 
+and then minimizing the distance between the facial embeddings 
+the Concept of Siamese Networks is used to train the model.
+The loss fuction used is Binary Cross Entropy 
+
+
+
+
+***Siamese Network -
+https://medium.com/wicds/face-recognition-using-siamese-networks-84d6f2e54ea4***
+
+***Resnet50 -
+https://towardsdatascience.com/the-annotated-resnet-50-a6c536034758***
 
 # Prerequisites
 It is advisable to create a separate python enviorment to install all packages
@@ -33,20 +44,15 @@ MTCNN can perform facial alignment
 
 Step 3 - facial recognition
 
-# Working of the project 
-
-Image is taken from the user and facial embeddings are calculated using the Resnet50. 
-Through simamese Networks the facial embedings are evaluated 
- Siamese Network -
- https://medium.com/wicds/face-recognition-using-siamese-networks-84d6f2e54ea4
-
  # Training 
- The model is trained on the LFW dataset ( make sure that you copy all the images in each of the folder - negative ,positive and anchor )
- In this model no pretrained weights are used and is made from scratch
+ The model is trained on the LFW dataset 
+ ( make sure that you copy all the images in each of the folder - negative ,positive and anchor )
+ 
+ ***In this model no pretrained weights are used and is made from scratch***
 
- # dataset
+ # Dataset
 
- If you want to train on you whole dataset just remove .take() in the data pipline this will ensure the model takes input of the whole data. Though it is recomended only if you have GPU 
+ If you want to train on you whole dataset just remove .take() in the data pipline this will ensure the model takes input of the whole data. Though it is recomended only if you have GPU
 
 # Prediction 
 Finaly the model can predict the faces of people in real time 
