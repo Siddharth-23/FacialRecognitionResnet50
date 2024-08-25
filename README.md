@@ -1,5 +1,5 @@
 # Facial Recognition Using Resnet50
-Facial recognition is dond by genrating facial embeddings 
+Facial recognition is done by genrating facial embeddings 
 and then minimizing the distance between the facial embeddings 
 the Concept of Siamese Networks is used to train the model.
 The loss fuction used is Binary Cross Entropy 
